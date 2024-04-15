@@ -1,0 +1,140 @@
+1. Are the HTML tags and elements the same thing?
+	-HTML and tags and element are lot different
+	-HTML tags have starting point and ending point(like= <p></p>)
+	-Elements in HTML enclose the content in between the tags.(like=<p>This is my frist web page.</p>)
+
+2.What are tags and attributes in HTML?  
+	-tags amd attributes are different things.
+	-HTML tags have starting point and ending point(like= <p></p>).
+	-HTML attributes are found only in the starting tag.
+
+3.What are void elements in HTML?  
+	-void elements do not have end tags.
+	-exampels of void element is <br>,<gr>,<img> etc...
+
+4.What are HTML Entities?
+	-some characters are reserve in HTML
+	-if you use less then(<) or greater than (>) sign in your HTML text,the browser mix them with tags.  
+
+5.What are different types of lists in HTML?  
+	-two types of lista in html
+	1) ordered list(ol)
+		ordered list is a list where each item is numbered.
+	ex. <ol>
+		<li>frist number</li>
+		<li>second number</li>
+		<li>third number</li>
+           </ol>
+
+	2) unordered list(ul)
+		-An unordered list is a list where each item is bulleted
+	ex.<ul>
+		<li>apple</li>
+		<li>banana</li>
+		<li>mango</li>
+	   </ul>
+
+6.What is the ‘class’ attribute in HTML?  
+	-The class attributre specifies one or more classnames for an element.
+
+7.What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?  
+	-class can be applied to multiple elements.
+	-id is a uniquely identifies one element
+
+	-accessed in CSS with .example selector.
+	-accessed in CSS with #example selector.
+	
+	-written as class="one"
+	-written as id="one"
+
+8.What are the various formatting tags in HTML?
+	- Their are many formatting tags in HTML
+	<b> - Bold text
+	<strong> - Important text
+	<i> - Italic text
+	<em> - Emphasized text
+	<mark> - Marked text
+	<small> - Smaller text
+	<sub> - Subscript text
+	<sup> - Superscript text
+
+9. How is Cell Padding different from Cell Spacing?  
+	-cell padding is an attribute
+	-cell spacing is also an attribute
+
+	-It is mainly meant for a single cell
+	-Cellspacing can get subjected to more than one cell	
+	
+	-It specifies the space between the border of a table cell and its contents
+	-It specifies the space between adjacent cells
+
+10. How can we club two or more rows or columns into a single row or column in an HTML table?  
+	-To merge two or more row cells, use the rowspan attribute.
+	 If you want to combine the first two cells in the first column, 
+	you can use the colspan="2" attribute in the first tag. 	
+	The number represents how many cells to use (merge) for the tag.
+
+11. What is the difference between a block-level element and an inline element?  
+	-Inline elements occupy only sufficient width required.
+	 Block Elements occupy the full width irrespective of their sufficiency.
+	 Inline elements don't start in a new line.
+	 Block elements always start in a line.
+
+12. How to create a Hyperlink in HTML?  
+	- The tag <a> defines a hyperlik
+	-The most important attribute of the <a> element is the href attribute 
+	 wictch indicates the lin'k destination.
+
+13. What is the use of an iframe tag?  
+	-The <iframe> tag specifies an inline frame.
+	 An inline frame is used to embed another document within the current HTML document. 
+
+14. What is the use of a span tag? Explain with example?  
+	-The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+
+15. How to insert a picture into a background image of a web page?  
+	- To add a backgroud image on a HTML elemnet, use the HTML style attribute and the CSS background-image proprty.
+	ex. <style>
+	p {
+  	background-image: url('');
+	}
+	    </style> 
+
+16. How are active links different from normal links? 
+	-Normal links are links which are there on the page and have not been clicked yet. 
+	-Active links are those links, which have just been clicked at that instant. 
+
+17.  What are the different tags to separate sections of text?
+	-<br> tag -it is used to separate the line of text.
+	- it breaks the current line and shift the flow of the text to a new line.
+
+18. What is SVG?  
+	-SVG(Scalable Vector Graphics)
+	-which can be directly embedded in HTML pages.
+
+19. What is difference between HTML and XHTML?  
+	-HTML can ignore small errors.
+	-XML does not allow errors.
+
+	-HTML is not Case sensitive.
+	-XML is Case sensitive.  
+	
+	-HTML tags are predefined tags.
+	-XML tags are user-defined tags.
+
+	-In HTML, closing tags are not necessary.
+	-In XML, closing tags are necessary.
+
+20. What are logical and physical tags in HTML?  
+	physical tags:-They are extremely straightforward.
+		      -Physical Text Styles indicate the specific type of appearance for a section e.g., bold, italics, etc.
+		      ex. <b>(bold)
+			  <i>( italic)
+			  <u>(underline)
+			  <sub>(subscript)etc......
+	logical  tags: -When we want to write code on our website.	
+		       ex. <abbr>,<address>, etc.... 
+	
+			
+	
+	
